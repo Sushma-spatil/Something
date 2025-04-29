@@ -1,0 +1,5 @@
+if (codeReader.reset) {
+    codeReader.reset();
+} else {
+    console.warn("codeReader.reset() is not available in this version.");
+}
